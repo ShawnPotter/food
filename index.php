@@ -32,7 +32,5 @@
     echo $view->render('views/lunch.html');
   });
 
-
-
   //run fat free
   $f3->run();
