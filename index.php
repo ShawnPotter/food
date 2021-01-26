@@ -26,6 +26,12 @@
     echo "Breakfast";
   });
 
+  //define a "lunch" route
+  $f3->route('GET /lunch', function(){
+    $view = new Template();
+    echo $view->render('views/lunch.html');
+  });
+
 
 
   //run fat free
